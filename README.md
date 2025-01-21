@@ -13,10 +13,11 @@ The Binary Number Converter is a simple web application designed to convert deci
 The project was planned using flowcharts to visualize the process of input validation, conversion, and output display. Below are the flowcharts that guided the development of this application.
 
 ### Flowcharts
-![Flowchart 1](![image](https://github.com/user-attachments/assets/e3fbda61-a252-4a21-8d80-9ab0b56b7f34)
-)
-![Flowchart 2](![image](https://github.com/user-attachments/assets/e4959948-3a8f-4225-8402-39b4e262fe18)
-)
+![image](https://github.com/user-attachments/assets/112c6c58-6770-4fc9-afaa-989db13ce30d)
+
+![image](https://github.com/user-attachments/assets/5df881b8-70a8-4ed2-b98a-9e1f556e60e2)
+
+
 
 ## Features
 - Input validation to ensure only valid numbers are processed.
