@@ -53,6 +53,7 @@ const binaryNumber = convertToBinary(validNumber)
 
 
   binaryOutput.textContent=binaryNumber
+  
 
 })
   
