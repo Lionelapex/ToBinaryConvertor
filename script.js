@@ -1,8 +1,12 @@
 // start 
 const inputNumber = document.getElementById('inputNumber');
 
+const binaryOutput = document.getElementById('binaryOutput');
 
-const input = inputNumber
+const button = document.querySelector('button');
+
+
+
 
 
 
@@ -24,8 +28,7 @@ const IsNumberValid = (input) => {
   }
 }
 
-// check if the number is valid
-const validNumber =IsNumberValid(input);
+
 
 
 // convert the number to binary
@@ -39,14 +42,20 @@ while (binary>0){
 }
 return binaryList
 }
-  // convert the number to binary
   
-  const binary = convertToBinary(validNumber)
 
 
+button.addEventListener('click', () => {
+// check if the number is valid
+const validNumber =IsNumberValid(inputNumber.value);
 
-  // CREATE A FUCTION TO DISPLAY THE BINARY NUMBER
+const binaryNumber = convertToBinary(validNumber)
 
 
-  // CREATE A FUNCTION TO DISPLAY THE BINARY NUMBER WHEN THE NUMBER IS BEING TYPED IN REAL TIME
-  S
+  binaryOutput.textContent=binaryNumber
+
+})
+  
+
+
+  
